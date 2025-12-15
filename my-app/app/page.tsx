@@ -86,13 +86,6 @@ export default function HomePage() {
             op de boerderij, waar hij stap voor stap uitgroeide tot een betrouwbare
             werkkracht.
           </p>
-          <Image
-            src="/tiener.jpg"
-            alt="Frans als tiener"
-            width={800}
-            height={500}
-            className="rounded-lg shadow-md mt-4 mb-8 w-full h-auto"
-          />
         </div>
 
         {/* Volwassen leven */}
@@ -109,13 +102,6 @@ export default function HomePage() {
             pintje — of soms ook meerdere — in goed gezelschap, met ruimte voor
             verhalen, lachen en herinneringen.
           </p>
-          <Image
-            src="/volwassen.jpg"
-            alt="Frans als volwassene"
-            width={800}
-            height={500}
-            className="rounded-lg shadow-md mt-4 mb-8 w-full h-auto"
-          />
         </div>
 
         {/* Pensioen */}
@@ -127,13 +113,6 @@ export default function HomePage() {
             gezelligheid, terugblikken op een rijk gevuld leven en het koesteren
             van eenvoudige genoegens.
           </p>
-          <Image
-            src="/pensioen.jpg"
-            alt="Frans tijdens zijn pensioen"
-            width={800}
-            height={500}
-            className="rounded-lg shadow-md mt-4 mb-8 w-full h-auto"
-          />
         </div>
 
       </div>
