@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { useState, useEffect } from "react";
-import RegistrationForm from "@/components/RegistrationForm";
 
 // Countdown Timer component
 function Timer({ targetDate }: { targetDate: string }) {
@@ -115,11 +114,6 @@ export default function HomePage() {
           </p>
         </div>
 
-      </div>
-
-      {/* Registratieformulier */}
-      <div className="mt-12">
-        <RegistrationForm />
       </div>
 
     </section>
