@@ -15,7 +15,7 @@ export default function RegistrationForm() {
         setErrorMsg("");
 
         try {
-            const res = await fetch("https://script.google.com/macros/s/AKfycbxLeNHwn4iQLbyOJl41qXV_4Rz8Mda-o1u-IOyEXxRLOf2DTOciOK66Fcl6_O5X09FkuA/exec", {
+            const res = await fetch("https://script.google.com/macros/s/AKfycbyAZui46qem3Ef5W4A2BGIILJuM4uh0l1SIW7so6mc7UARv70yjqQjiqQlUtL0HdWnNkw/exec", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ name, email, guests }),
